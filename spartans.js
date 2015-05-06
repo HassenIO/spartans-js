@@ -3,7 +3,7 @@
   $(function() {
     var getSpartansScores;
     getSpartansScores = function(appId, itemSource, itemCandidates, callback) {
-      return $.post('http://api.spartans-dev.co:3000/v1/apps/' + appId + '/suggestions', {
+      return $.post('http://api.spartans.co/v1/apps/' + appId + '/suggestions', {
         source: itemSource,
         candidates: itemCandidates.join()
       }, function(data) {

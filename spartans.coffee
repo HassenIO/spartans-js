@@ -4,7 +4,7 @@ $ ->
   #
   getSpartansScores = (appId, itemSource, itemCandidates, callback) ->
     $.post(
-      'http://api.spartans-dev.co:3000/v1/apps/' + appId + '/suggestions',
+      'http://api.spartans.co/v1/apps/' + appId + '/suggestions',
       {
         source: itemSource,
         candidates: itemCandidates.join()
