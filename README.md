@@ -10,11 +10,14 @@ _Nota: `spartans.js` needs jQuery to work properly._
 
 ## Installation
 
-You can create a file in your project, for example `spartans.js` and copy/paste the code inside [spartans.js](https://raw.githubusercontent.com/htaidirt/spartans-js/master/spartans.js) file or reference it directly from your project, using:
+`spartans.js` is available in a minified version [spartans.min.js](https://raw.githubusercontent.com/htaidirt/spartans-js/master/spartans.min.js). Copy/paste (or just save) it in your project.
 
-    <script type="text/javascript" src="https://raw.githubusercontent.com/htaidirt/spartans-js/master/spartans.js"></script>
+It is better to include the call to your copy of `spartans.js` at the bottom of your `<body>` code.
 
-In all cases, it is better to include the call to `spartans.js` at the bottom of your HTML code.
+    <body>
+        ...
+        <script type="text/javascript" src="/path/to/spartans.min.js"></script>
+    </body>
 
 ## Usage
 
