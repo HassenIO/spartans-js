@@ -10,9 +10,9 @@ _Nota: `spartans.js` needs jQuery to work properly._
 
 ## Installation
 
-You can create a file in your project, for example `spartans.js` and copy/paste the code inside [spartans.js]() file or reference it directly from your project, using:
+You can create a file in your project, for example `spartans.js` and copy/paste the code inside [spartans.js](https://raw.githubusercontent.com/htaidirt/spartans-js/master/spartans.js) file or reference it directly from your project, using:
 
-    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/htaidirt/spartans-js/master/spartans.js"></script>
 
 In all cases, it is better to include the call to `spartans.js` at the bottom of your HTML code.
 
